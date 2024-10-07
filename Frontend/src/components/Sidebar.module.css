@@ -1,0 +1,12 @@
+.sidebar{
+    width:230px;
+    border-right: 1.5px solid rgba(0, 0, 0, 0.282);
+}
+.floatbottom{
+    position: absolute;
+    bottom: 5%;
+    font-weight: 400;
+}
+.outer::-webkit-scrollbar{
+    display: none;
+}

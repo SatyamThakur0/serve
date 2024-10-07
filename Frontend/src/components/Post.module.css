@@ -1,0 +1,13 @@
+.post{
+    min-width: 450px;
+    border-bottom: 1px solid grey;
+}
+.commentinput:focus{
+    outline: none;
+}
+.svg{
+    transform: scale(1.85);
+}
+.noScrollbar::-webkit-scrollbar{
+    display: none;
+}

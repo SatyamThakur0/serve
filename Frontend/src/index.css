@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+body{
+    background-color: #eeeeee;
+    box-sizing: border-box;
+    overscroll-behavior-y: none;
+    /* overflow: visible; */
+}
+input{
+    background-color: #eeeeee;
+}
+textarea{
+    background-color: #eeeeee;
+}

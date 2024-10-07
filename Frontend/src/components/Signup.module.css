@@ -1,0 +1,40 @@
+.form{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    animation: slideUp 0.6s ease-out forwards;
+    opacity: 0;
+}
+
+@keyframes slideUp {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.greytext{
+    color: rgb(183, 183, 183);
+}
+
+.spinner{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border-top: 4px solid rgb(183, 183, 183);
+    border-right: 4px solid rgb(183, 183, 183,0);
+    border-bottom: 4px solid rgb(183, 183, 183,0);
+    border-left: 4px solid rgb(183, 183, 183,0);
+    border-radius: 500%;
+    animation: spin 1s linear infinite;
+}
